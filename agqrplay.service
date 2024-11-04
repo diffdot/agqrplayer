@@ -1,0 +1,12 @@
+[Unit]
+Description = AGQR radio play service
+
+[Service]
+ExecStart=/opt/agqrplay.sh
+Restart=no
+Type=simple
+User=pi
+Group=audio
+
+[Install]
+WantedBy=multi-user.target
