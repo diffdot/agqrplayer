@@ -1,0 +1,12 @@
+[Unit]
+Description = AGQR radio play button service
+
+[Service]
+ExecStart=/opt/agqrbtn.py
+Restart=always
+Type=simple
+User=pi
+Group=audio
+
+[Install]
+WantedBy=multi-user.target
