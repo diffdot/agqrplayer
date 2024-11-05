@@ -3,7 +3,7 @@ Description = AGQR radio play button service timer
 
 [Timer]
 # ブート後、この時間後にこのタイマーを開始する
-OnBootSec=1min
+OnBootSec=10sec
 Unit=agqrbtn.service
 
 [Install]
